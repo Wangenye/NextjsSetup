@@ -1,10 +1,19 @@
 .main {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+}
+.Todo {
+  width: 800px;
+}
+
+.main2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .description {
